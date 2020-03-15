@@ -19,7 +19,6 @@
 		8763FB4A24128A65000AD0F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8763FB4824128A65000AD0F6 /* LaunchScreen.storyboard */; };
 		8763FB5524129237000AD0F6 /* ModelUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763FB5424129237000AD0F6 /* ModelUser.swift */; };
 		8763FB5724129815000AD0F6 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763FB5624129815000AD0F6 /* MainScreenViewController.swift */; };
-		8763FB59241298D3000AD0F6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763FB58241298D3000AD0F6 /* RegisterViewController.swift */; };
 		87F7FA4024194504001C0B42 /* DataHuman.json in Resources */ = {isa = PBXBuildFile; fileRef = 87F7FA3F24194504001C0B42 /* DataHuman.json */; };
 		87F7FA442419907D001C0B42 /* DataUsers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87F7FA432419907D001C0B42 /* DataUsers.plist */; };
 		87F7FA4624199186001C0B42 /* DataLoaderPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F7FA4524199186001C0B42 /* DataLoaderPlist.swift */; };
@@ -40,7 +39,6 @@
 		8763FB4B24128A65000AD0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8763FB5424129237000AD0F6 /* ModelUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUser.swift; sourceTree = "<group>"; };
 		8763FB5624129815000AD0F6 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
-		8763FB58241298D3000AD0F6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		87F7FA3F24194504001C0B42 /* DataHuman.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DataHuman.json; sourceTree = "<group>"; };
 		87F7FA432419907D001C0B42 /* DataUsers.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DataUsers.plist; sourceTree = "<group>"; };
 		87F7FA4524199186001C0B42 /* DataLoaderPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoaderPlist.swift; sourceTree = "<group>"; };
@@ -61,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				8732DD092416B11400D1DAEB /* HumansCell.swift */,
+				8763FB4324128A64000AD0F6 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -90,7 +89,6 @@
 				8763FB5124129203000AD0F6 /* Model */,
 				8732DD082416B0E000D1DAEB /* View */,
 				87F7FA4D241E649D001C0B42 /* HelperFile */,
-				8763FB4324128A64000AD0F6 /* Main.storyboard */,
 				8763FB4624128A65000AD0F6 /* Assets.xcassets */,
 				8763FB4824128A65000AD0F6 /* LaunchScreen.storyboard */,
 				8763FB4B24128A65000AD0F6 /* Info.plist */,
@@ -113,7 +111,6 @@
 			children = (
 				8763FB4124128A64000AD0F6 /* SignInViewController.swift */,
 				8763FB5624129815000AD0F6 /* MainScreenViewController.swift */,
-				8763FB58241298D3000AD0F6 /* RegisterViewController.swift */,
 				8732DD042412E5BF00D1DAEB /* EditUserViewController.swift */,
 				8732DD0624167C8100D1DAEB /* AboutTheProgramViewController.swift */,
 			);
@@ -206,7 +203,6 @@
 				8763FB5724129815000AD0F6 /* MainScreenViewController.swift in Sources */,
 				8763FB3E24128A64000AD0F6 /* AppDelegate.swift in Sources */,
 				8732DD052412E5BF00D1DAEB /* EditUserViewController.swift in Sources */,
-				8763FB59241298D3000AD0F6 /* RegisterViewController.swift in Sources */,
 				8732DD032412E23400D1DAEB /* ModelHuman.swift in Sources */,
 				8763FB5524129237000AD0F6 /* ModelUser.swift in Sources */,
 				8732DD0A2416B11400D1DAEB /* HumansCell.swift in Sources */,

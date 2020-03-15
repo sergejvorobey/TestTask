@@ -48,8 +48,8 @@ class SignInViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(true)
         loginProgressView.alpha = 0
-        loginTextField.text = ""
-        passwordTextField.text = ""
+//        loginTextField.text = ""
+//        passwordTextField.text = ""
     }
     
     
