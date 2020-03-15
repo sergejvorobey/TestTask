@@ -1,0 +1,32 @@
+[
+    {
+        "customer_id" : 1,
+        "customer_firstName" : "Иван",
+        "customer_lastName" : "Иванов",
+        "age" : "46"
+    },
+    {
+        "customer_id" : 2,
+        "customer_firstName" : "Иван",
+        "customer_lastName" : "Сидоров",
+        "age" : "56"
+    },
+    {
+        "customer_id" : 3,
+        "customer_firstName" : "Артем",
+        "customer_lastName" : "Петров",
+        "age" : "32"
+    },
+    {
+        "customer_id" : 4,
+        "customer_firstName" : "Василий",
+        "customer_lastName" : "Уткин",
+        "age" : "18"
+    },
+    {
+        "customer_id" : 5,
+        "customer_firstName" : "Петр",
+        "customer_lastName" : "Петров",
+        "age" : "88"
+    }
+]

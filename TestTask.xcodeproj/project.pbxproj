@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8732DD032412E23400D1DAEB /* ModelHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732DD022412E23400D1DAEB /* ModelHuman.swift */; };
+		8732DD052412E5BF00D1DAEB /* EditUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732DD042412E5BF00D1DAEB /* EditUserViewController.swift */; };
+		8732DD0724167C8100D1DAEB /* AboutTheProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732DD0624167C8100D1DAEB /* AboutTheProgramViewController.swift */; };
+		8732DD0A2416B11400D1DAEB /* HumansCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732DD092416B11400D1DAEB /* HumansCell.swift */; };
 		8763FB3E24128A64000AD0F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763FB3D24128A64000AD0F6 /* AppDelegate.swift */; };
 		8763FB4024128A64000AD0F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763FB3F24128A64000AD0F6 /* SceneDelegate.swift */; };
-		8763FB4224128A64000AD0F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763FB4124128A64000AD0F6 /* ViewController.swift */; };
+		8763FB4224128A64000AD0F6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763FB4124128A64000AD0F6 /* SignInViewController.swift */; };
 		8763FB4524128A64000AD0F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8763FB4324128A64000AD0F6 /* Main.storyboard */; };
 		8763FB4724128A65000AD0F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8763FB4624128A65000AD0F6 /* Assets.xcassets */; };
 		8763FB4A24128A65000AD0F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8763FB4824128A65000AD0F6 /* LaunchScreen.storyboard */; };
+		8763FB5524129237000AD0F6 /* ModelUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763FB5424129237000AD0F6 /* ModelUser.swift */; };
+		8763FB5724129815000AD0F6 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763FB5624129815000AD0F6 /* MainScreenViewController.swift */; };
+		8763FB59241298D3000AD0F6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763FB58241298D3000AD0F6 /* RegisterViewController.swift */; };
+		87F7FA4024194504001C0B42 /* DataHuman.json in Resources */ = {isa = PBXBuildFile; fileRef = 87F7FA3F24194504001C0B42 /* DataHuman.json */; };
+		87F7FA442419907D001C0B42 /* DataUsers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87F7FA432419907D001C0B42 /* DataUsers.plist */; };
+		87F7FA4624199186001C0B42 /* DataLoaderPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F7FA4524199186001C0B42 /* DataLoaderPlist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8732DD022412E23400D1DAEB /* ModelHuman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelHuman.swift; sourceTree = "<group>"; };
+		8732DD042412E5BF00D1DAEB /* EditUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserViewController.swift; sourceTree = "<group>"; };
+		8732DD0624167C8100D1DAEB /* AboutTheProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTheProgramViewController.swift; sourceTree = "<group>"; };
+		8732DD092416B11400D1DAEB /* HumansCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumansCell.swift; sourceTree = "<group>"; };
 		8763FB3A24128A64000AD0F6 /* TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8763FB3D24128A64000AD0F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8763FB3F24128A64000AD0F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8763FB4124128A64000AD0F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8763FB4124128A64000AD0F6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		8763FB4424128A64000AD0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8763FB4624128A65000AD0F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8763FB4924128A65000AD0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8763FB4B24128A65000AD0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8763FB5424129237000AD0F6 /* ModelUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUser.swift; sourceTree = "<group>"; };
+		8763FB5624129815000AD0F6 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		8763FB58241298D3000AD0F6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		87F7FA3F24194504001C0B42 /* DataHuman.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DataHuman.json; sourceTree = "<group>"; };
+		87F7FA432419907D001C0B42 /* DataUsers.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DataUsers.plist; sourceTree = "<group>"; };
+		87F7FA4524199186001C0B42 /* DataLoaderPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoaderPlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8732DD082416B0E000D1DAEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8732DD092416B11400D1DAEB /* HumansCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8763FB3124128A64000AD0F6 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +86,47 @@
 			children = (
 				8763FB3D24128A64000AD0F6 /* AppDelegate.swift */,
 				8763FB3F24128A64000AD0F6 /* SceneDelegate.swift */,
-				8763FB4124128A64000AD0F6 /* ViewController.swift */,
+				8763FB5324129216000AD0F6 /* Controllers */,
+				8763FB5124129203000AD0F6 /* Model */,
+				8732DD082416B0E000D1DAEB /* View */,
+				87F7FA4D241E649D001C0B42 /* HelperFile */,
 				8763FB4324128A64000AD0F6 /* Main.storyboard */,
 				8763FB4624128A65000AD0F6 /* Assets.xcassets */,
 				8763FB4824128A65000AD0F6 /* LaunchScreen.storyboard */,
 				8763FB4B24128A65000AD0F6 /* Info.plist */,
 			);
 			path = TestTask;
+			sourceTree = "<group>";
+		};
+		8763FB5124129203000AD0F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8763FB5424129237000AD0F6 /* ModelUser.swift */,
+				8732DD022412E23400D1DAEB /* ModelHuman.swift */,
+				87F7FA4524199186001C0B42 /* DataLoaderPlist.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8763FB5324129216000AD0F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8763FB4124128A64000AD0F6 /* SignInViewController.swift */,
+				8763FB5624129815000AD0F6 /* MainScreenViewController.swift */,
+				8763FB58241298D3000AD0F6 /* RegisterViewController.swift */,
+				8732DD042412E5BF00D1DAEB /* EditUserViewController.swift */,
+				8732DD0624167C8100D1DAEB /* AboutTheProgramViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		87F7FA4D241E649D001C0B42 /* HelperFile */ = {
+			isa = PBXGroup;
+			children = (
+				87F7FA3F24194504001C0B42 /* DataHuman.json */,
+				87F7FA432419907D001C0B42 /* DataUsers.plist */,
+			);
+			path = HelperFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +187,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F7FA4024194504001C0B42 /* DataHuman.json in Resources */,
 				8763FB4A24128A65000AD0F6 /* LaunchScreen.storyboard in Resources */,
 				8763FB4724128A65000AD0F6 /* Assets.xcassets in Resources */,
+				87F7FA442419907D001C0B42 /* DataUsers.plist in Resources */,
 				8763FB4524128A64000AD0F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +202,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8763FB4224128A64000AD0F6 /* ViewController.swift in Sources */,
+				8763FB4224128A64000AD0F6 /* SignInViewController.swift in Sources */,
+				8763FB5724129815000AD0F6 /* MainScreenViewController.swift in Sources */,
 				8763FB3E24128A64000AD0F6 /* AppDelegate.swift in Sources */,
+				8732DD052412E5BF00D1DAEB /* EditUserViewController.swift in Sources */,
+				8763FB59241298D3000AD0F6 /* RegisterViewController.swift in Sources */,
+				8732DD032412E23400D1DAEB /* ModelHuman.swift in Sources */,
+				8763FB5524129237000AD0F6 /* ModelUser.swift in Sources */,
+				8732DD0A2416B11400D1DAEB /* HumansCell.swift in Sources */,
+				87F7FA4624199186001C0B42 /* DataLoaderPlist.swift in Sources */,
+				8732DD0724167C8100D1DAEB /* AboutTheProgramViewController.swift in Sources */,
 				8763FB4024128A64000AD0F6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.TestTask";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +384,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.TestTask";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
